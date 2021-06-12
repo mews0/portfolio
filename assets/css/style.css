@@ -24,6 +24,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -66,4 +67,18 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
+}
+
+footer {
+  width: 100%;
+  padding: 40px 35px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer h2 {
+  display: inline;
+  color: var(--green-0);
+  font-size: 24px;
+  margin: 0;
 }
