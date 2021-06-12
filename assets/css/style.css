@@ -33,6 +33,10 @@ body {
   background-color: var(--black-0);
 }
 
+p {
+  font-size: 24px;
+}
+
 header {
   padding: 20px 35px;
   background-color: var(--black-1);
@@ -84,15 +88,23 @@ footer h2 {
 }
 
 section {
-  padding: 60px;
+  padding: 30px 60px;
 }
 
 section h2 {
+  font-size: 32px;
   color: var(--red-0);
+  text-align: center;
 }
 
-.hero {
+#hero {
   background-image: url(../images/binary-code.jpg);
   height: 256px;
   opacity: 0.75;
+}
+
+#about img {
+  width: 256px;
+  height: auto;
+  float: left;
 }
