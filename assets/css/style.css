@@ -82,3 +82,17 @@ footer h2 {
   font-size: 24px;
   margin: 0;
 }
+
+section {
+  padding: 60px;
+}
+
+section h2 {
+  color: var(--red-0);
+}
+
+.hero {
+  background-image: url(../images/binary-code.jpg);
+  height: 256px;
+  opacity: 0.75;
+}
