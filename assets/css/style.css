@@ -73,6 +73,11 @@ header nav ul li a {
   font-size: 22px;
 }
 
+header nav ul li a:hover {
+  background: var(--black-0);
+  color: var(--gold-0);
+}
+
 footer {
   width: 100%;
   padding: 40px 35px;
@@ -132,4 +137,8 @@ section h2 {
   font-size: 24px;
   text-decoration: none;
   color: var(--white-0);
+}
+
+#contact ul li a:hover {
+  color: var(--cyan-0);
 }
