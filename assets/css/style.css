@@ -118,3 +118,18 @@ section h2 {
   padding: 32px;
   float: right;
 }
+
+#contact ul {
+  text-align: center;
+}
+
+#contact ul li {
+  display: inline;
+}
+
+#contact ul li a {
+  margin: 0 30px;
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--white-0);
+}
