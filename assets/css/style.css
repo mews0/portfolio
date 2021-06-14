@@ -216,5 +216,24 @@ footer h2 {
 
 /* media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
+  .about-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .about img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px;
+   }
+
+   .about p {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     text-align: justify;
+   }
 }
