@@ -51,7 +51,7 @@ header {
 
 header h1 {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 48px;
   margin: 0;
 }
 
@@ -188,15 +188,33 @@ footer h2 {
 
 /* media query for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
 
-}
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
 
-/* media query for tablets and smaller */
-@media screen and (max-width: 768px) {
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
 
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2 {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 /* media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
-  
+
 }
