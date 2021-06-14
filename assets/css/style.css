@@ -157,10 +157,13 @@ footer {
   padding: 40px 35px;
   line-height: 1.5;
   text-align: center;
+  /* add display: flex? */
+  /* add justify-content: space-between? */
+  /* add flex-wrap: wrap? */
 }
 
 footer h2 {
-  display: inline;
+  display: inline;  /* remove? */
   color: var(--green-0);
   font-size: 24px;
   margin: 0;
