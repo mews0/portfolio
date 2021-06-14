@@ -89,6 +89,9 @@ header nav ul li a:hover {
   background-image: url(../images/binary-code.jpg);
   height: 256px;
   opacity: 0.75;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 section {
