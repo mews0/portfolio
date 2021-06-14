@@ -85,20 +85,6 @@ header nav ul li a:hover {
   color: var(--white-0);
 }
 
-footer {
-  width: 100%;
-  padding: 40px 35px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-footer h2 {
-  display: inline;
-  color: var(--green-0);
-  font-size: 24px;
-  margin: 0;
-}
-
 .hero {
   background-image: url(../images/binary-code.jpg);
   height: 256px;
@@ -164,4 +150,18 @@ section h2 {
 
 .contact ul li a:hover {
   color: var(--cyan-0);
+}
+
+footer {
+  width: 100%;
+  padding: 40px 35px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer h2 {
+  display: inline;
+  color: var(--green-0);
+  font-size: 24px;
+  margin: 0;
 }
