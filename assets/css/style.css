@@ -76,7 +76,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px; /* was margin: 0 30px; */
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -184,4 +184,19 @@ footer h2 {
   color: var(--green-0);
   font-size: 24px;
   margin: 0;
+}
+
+/* media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+
+}
+
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+
+}
+
+/* media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+  
 }
