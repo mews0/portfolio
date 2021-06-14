@@ -108,6 +108,11 @@ section h2 {
   display: inline-block;
 }
 
+.about-info {
+  display: flex;
+  align-items: center;
+}
+
 .about img {
   width: 20%;
   height: auto;
