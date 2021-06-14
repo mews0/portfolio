@@ -27,6 +27,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: monospace;
   color: var(--white-0);
@@ -50,7 +54,6 @@ header h1 {
 }
 
 header a {
-  text-decoration: none;
   color: var(--gray-0);
 }
 
@@ -92,6 +95,12 @@ footer h2 {
   margin: 0;
 }
 
+.hero {
+  background-image: url(../images/binary-code.jpg);
+  height: 256px;
+  opacity: 0.75;
+}
+
 section {
   padding: 32px 64px;
 }
@@ -100,21 +109,6 @@ section h2 {
   font-size: 32px;
   color: var(--red-0);
   text-align: center;
-}
-
-section h3 {
-  font-size: 24px;
-  color: var(--gold-0);
-}
-
-section h4 {
-  font-size: 18px;
-}
-
-.hero {
-  background-image: url(../images/binary-code.jpg);
-  height: 256px;
-  opacity: 0.75;
 }
 
 .about {
@@ -133,6 +127,23 @@ section h4 {
   float: right;
 }
 
+.work a {
+  color: var(--gold);
+}
+
+.work a:hover {
+  color: var(--blue-0);
+}
+
+.work h3 {
+  font-size: 24px;
+  color: var(--gold-0);
+}
+
+.work h4 {
+  font-size: 18px;
+}
+
 .contact ul {
   text-align: center;
 }
@@ -144,7 +155,6 @@ section h4 {
 .contact ul li a {
   margin: 0 30px;
   font-size: 24px;
-  text-decoration: none;
   color: var(--white-0);
 }
 
