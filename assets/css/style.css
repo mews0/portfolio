@@ -44,13 +44,15 @@ p {
 header {
   padding: 20px 35px;
   background-color: var(--black-1);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
   font-weight: bold;
   font-size: 36px;
   margin: 0;
-  display: inline;
 }
 
 header a {
@@ -62,7 +64,6 @@ header h1 a {
 }
 
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
