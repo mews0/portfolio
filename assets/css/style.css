@@ -102,43 +102,43 @@ section h2 {
   text-align: center;
 }
 
-#hero {
+.hero {
   background-image: url(../images/binary-code.jpg);
   height: 256px;
   opacity: 0.75;
 }
 
-#about {
+.about {
   display: inline-block;
 }
 
-#about img {
+.about img {
   width: 20%;
   height: auto;
   float: left;
 }
 
-#about p {
+.about p {
   width: 80%;
   padding: 32px;
   float: right;
 }
 
-#contact ul {
+.contact ul {
   text-align: center;
 }
 
-#contact ul li {
+.contact ul li {
   display: inline;
 }
 
-#contact ul li a {
+.contact ul li a {
   margin: 0 30px;
   font-size: 24px;
   text-decoration: none;
   color: var(--white-0);
 }
 
-#contact ul li a:hover {
+.contact ul li a:hover {
   color: var(--cyan-0);
 }
